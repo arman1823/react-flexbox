@@ -10,7 +10,7 @@
     "build:umd": "NODE_ENV=production webpack src/index.jsx dist/react-flexbox.js",
     "build:umd:min": "NODE_ENV=production webpack -p src/index.jsx dist/react-flexbox.min.js",
     "prepublish": "npm run build",
-    "examples": "NODE_ENV=development webpack-dev-server examples"
+    "example": "NODE_ENV=development webpack-dev-server examples"
   },
   "licenses": [
     {
